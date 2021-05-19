@@ -1,14 +1,14 @@
-- title: Home
+- title: 主页
   url: /
-- title: Posts
+- title: 文章
   url: /posts/
-- title: Categories
+- title: 分类
   url: /categories/
-- title: Tags
+- title: 标签
   url: /tags/
 - title: Recipes
   url: /recipes/
-- title: Search
+- title: 搜索
   url: /search/
 - title: Github
   url: https://github.com/xiaosu-zhu
