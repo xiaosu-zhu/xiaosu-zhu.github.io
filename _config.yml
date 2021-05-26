@@ -16,16 +16,16 @@
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: "xiaosu-zhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title: "Aurora Studio"
+description: "Brighter Inspire."
+baseurl: / # the subpath of your site, e.g. "/blog"
+url: "https://xiaosu-zhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
-date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+date_format: "%y %b %d"
+read_time: true # reading time estimates, e.g. true
+words_per_minute: 80
 mathjax:
-  enable: # MathJax equations, e.g. true, false (default)
+  enable: true # MathJax equations, e.g. true, false (default)
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags:  # "none", "ams" (default), "all"
 google_fonts:
@@ -50,15 +50,15 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -98,6 +98,8 @@ author:
     - title:
       url:
       icon:
+
+copyright: "Aurora Studio © 2021"
 
 # Footer Links
 footer_links:
