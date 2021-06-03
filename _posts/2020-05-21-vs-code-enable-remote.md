@@ -1,10 +1,9 @@
 ---
 layout: post
 author: Xiaosu
+title: Visual Studio Code 远程调试
 share: true
 ---
-
-# Visual Studio Code 远程调试
 
 ## 要求
 * 带有 SSH-client 的系统（Windows 10 1809 以上或 Windows Server 2019 系统可以启用原生的 OpenSSH，见 Q&A 部分）；
