@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://uestc.edu.cn' target="_blank">UESTC</a>. xiaosu-zhu@outlook.com
+subtitle: <a href='https://www.uestc.edu.cn' target="_blank">UESTC</a>. <a href='mailto:xiaosu.zhu@outlook.com' target="_blank">xiaosu.zhu@outlook.com</a>
 
 profile:
   align: right
