@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.uestc.edu.cn' target="_blank">UESTC</a>. <a href='mailto:xiaosu.zhu@outlook.com' target="_blank">xiaosu.zhu@outlook.com</a>
+subtitle: <a href='https://www.uestc.edu.cn' target="_blank">UESTC</a> &#183; <a href='mailto:xiaosu.zhu@outlook.com' target="_blank">xiaosu.zhu@outlook.com</a> <br/> Ph.D student.
 
 profile:
   align: right
@@ -19,3 +19,5 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Currently, I'm a Ph.D. student in Center for Future Media and School of Computer Science and Engineering of University of Electronic Science and Technology of China (UESTC). My research interests lie in compact representation learning, multimedia retrieval and compression.
+
+Earlier, I recieved my bachelor's degree in Electrical Engineering and Automation from UESTC in 2017. During this time, I learned a few programming languages and developed some small apps including Aurora Music, which was selected as the finalist of Design Innovator of the 2018's Windows Developer Award.
