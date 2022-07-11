@@ -18,6 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Currently, I'm a Ph.D. student in Center for Future Media and School of Computer Science and Engineering of University of Electronic Science and Technology of China (UESTC). My research interests lie in compact representation learning, multimedia retrieval and compression.
+Currently, I'm a Ph.D. student in Center for Future Media and School of Computer Science and Engineering of University of Electronic Science and Technology of China (UESTC). My research interests lie in compact representation learning, multimedia retrieval and compression, supervised by Prof. Jingkuan Song and Prof. Lianli Gao.
 
 Earlier, I recieved my bachelor's degree in Electrical Engineering and Automation from UESTC in 2017. During this time, I learned a few programming languages and developed some small apps including Aurora Music, which was selected as the finalist of Design Innovator of the 2018's Windows Developer Award.
