@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='uestc.edu.cn'>UESTC</a>. xiaosu-zhu@outlook.com
+subtitle: <a href='https://uestc.edu.cn' target="_blank">UESTC</a>. xiaosu-zhu@outlook.com
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   image_cicular: false # crops the image to make it circular
   address: >
     <p>Innovation Center, Room A305.</p>
-    <p>Qing Shui He Campus, UESTC</p>
-    <p>Chengdu, China</p>
+    <p>Qing Shui He Campus, UESTC.</p>
+    <p>Chengdu, China.</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
