@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>Innovation Center, Room A305.</p>
+    <p>Room A305, Innovation Center.</p>
     <p>Qing Shui He Campus, UESTC.</p>
     <p>Chengdu, China.</p>
 
