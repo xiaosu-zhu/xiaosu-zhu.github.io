@@ -212,7 +212,7 @@ scholar:
   last_name: Zhu
   first_name: Xiaosu
 
-  style: proceedings-of-the-ieee
+  style: dependent/proceedings-of-the-ieee
   locale: en
 
   source: /_bibliography/
