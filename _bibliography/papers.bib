@@ -11,7 +11,14 @@
   booktitle = {CVPR},
   pages     = {17612--17621},
   year      = {2022},
-  selected = {true}
+  selected  = {true},
+  abbr      = {CVPR},
+  bibtex_show={true},
+  abstract  = {Modeling latent variables with priors and hyperpriors is an essential problem in variational image compression. Formally, trade-off between rate and distortion is handled well if priors and hyperpriors precisely describe latent variables. Current practices only adopt univariate priors and process each variable individually. However, we find inter-correlations and intra-correlations exist when observing latent variables in a vectorized perspective. These findings reveal visual redundancies to improve rate-distortion performance and parallel processing ability to speed up compression. This encourages us to propose a novel vectorized prior. Specifically, a multivariate Gaussian mixture is proposed with means and covariances to be estimated. Then, a novel probabilistic vector quantization is utilized to effectively approximate means, and remaining covariances are further induced to a unified mixture and solved by cascaded estimation without context models involved. Furthermore, codebooks involved in quantization are extended to multi-codebooks for complexity reduction, which formulates an efficient compression procedure. Extensive experiments on benchmark datasets against state-of-the-art indicate our model has better rate-distortion performance and an impressive 3.18x compression speed up, giving us the ability to perform real-time, high-quality variational image compression in practice. Our source code is publicly available at https://github.com/xiaosu-zhu/McQuic.},
+  code      = {https://github.com/xiaosu-zhu/McQuic},
+  arxiv     = {2203.10897},
+  pdf       = {https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Unified_Multivariate_Gaussian_Mixture_for_Efficient_Neural_Image_Compression_CVPR_2022_paper.pdf},
+  supp      = {https://openaccess.thecvf.com/content/CVPR2022/supplemental/Zhu_Unified_Multivariate_Gaussian_CVPR_2022_supplemental.pdf}
 }
 
 @inproceedings{MM21,
@@ -24,7 +31,12 @@
                Learning},
   booktitle = {ACM MM},
   pages     = {2002--2010},
-  year      = {2021}
+  year      = {2021},
+  abbr      = {ACM MM},
+  bibtex_show={true},
+  abstract  = {Despite the success of single-domain person re-identification (ReID), current supervised models degrade dramatically when deployed to unseen domains, mainly due to the discrepancy across cameras. To tackle this issue, we propose an Adversarial Disentangling Learning (ADL) framework to decouple camera-related and ID-related features, which can be readily used for camera-agnostic person ReID. ADL adopts a discriminative way instead of the mainstream generative styles in disentangling methods, eg., GAN or VAE based, because for person ReID task only the information to discriminate IDs is needed, and more information to generate images are redundant and may be noisy. Specifically, our model involves a feature separation module that encodes images into two separate feature spaces and a disentangled feature learning module that performs adversarial training to minimize mutual information. We design an effective solution to approximate and minimize mutual information by transforming it into a discrimination problem. The two modules are co-designed to obtain strong generalization ability by only using source dataset. Extensive experiments on three public benchmarks show that our method outperforms the state-of-the-art generalizable person ReID model by a large margin. Our code is publicly available at https://github.com/luckyaci/ADL_ReID.},
+  code      = {https://github.com/luckyaci/ADL_ReID},
+  pdf       = {https://dl.acm.org/doi/pdf/10.1145/3474085.3475361}
 }
 
 @inproceedings{SIGIR20,
@@ -37,7 +49,12 @@
   title     = {3D Self-Attention for Unsupervised Video Quantization},
   booktitle = {ACM SIGIR},
   pages     = {1061--1070},
-  year      = {2020}
+  year      = {2020},
+  abbr      = {SIGIR},
+  bibtex_show={true},
+  abstract  = {Unsupervised video quantization is to compress the original videos to compact binary codes so that video retrieval can be conducted in an efficient way. In this paper, we make a first attempt to combine quantization method with video retrieval called 3D-UVQ, which obtains high retrieval accuracy with low storage cost. In the proposed framework, we address two main problems: 1) how to design an effective pipeline to perceive video contextual information for video features extraction; and 2) how to quantize these features for efficient retrieval. To tackle these problems, we propose a 3D self-attention module to exploit the spatial and temporal contextual information, where each pixel is influenced by its surrounding pixels. By taking a further recurrent operation, each pixel can finally capture the global context from all pixels. Then, we propose gradient-based residual quantization which consists of several quantization blocks to approximate the features gradually. Extensive experimental results on three benchmark datasets demonstrate that our method significantly outperforms the state-of-the-arts. Ablation study shows that both the 3D self-attention module and the gradient-based residual quantization can improve the performance of retrieval. Our model is publicly available at https://github.com/brownwolf/3D-UVQ.},
+  code      = {https://github.com/brownwolf/3D-UVQ},
+  pdf       = {https://dl.acm.org/doi/pdf/10.1145/3397271.3401122}
 }
 
 @inproceedings{IJCAI191,
@@ -50,7 +67,13 @@
                Retrieval},
   booktitle = {IJCAI},
   pages     = {723--729},
-  year      = {2019}
+  year      = {2019},
+  abbr      = {IJCAI},
+  bibtex_show={true},
+  abstract  = {Product Quantization (PQ) has long been a mainstream for generating an exponentially large codebook at very low memory/time cost. Despite its success, PQ is still tricky for the decomposition of high-dimensional vector space, and the retraining of model is usually unavoidable when the code length changes. In this work, we propose a deep progressive quantization (DPQ) model, as an alternative to PQ, for large scale image retrieval. DPQ learns the quantization codes sequentially and approximates the original feature space progressively. Therefore, we can train the quantization codes with different code lengths simultaneously. Specifically, we first utilize the label information for guiding the learning of visual features, and then apply several quantization blocks to progressively approach the visual features. Each quantization block is designed to be a layer of a convolutional neural network, and the whole framework can be trained in an end-to-end manner. Experimental results on the benchmark datasets show that our model significantly outperforms the state-of-the-art for image retrieval. Our model is trained once for different code lengths and therefore requires less computation time. Additional ablation study demonstrates the effect of each component of our proposed model. Our code is released at this https URL.},
+  arxiv     = {1906.06698},
+  code      = {https://github.com/xiaosu-zhu/DPQ},
+  pef       = {https://www.ijcai.org/proceedings/2019/0102.pdf}
 }
 
 @inproceedings{IJCAI192,
@@ -63,5 +86,11 @@
   title     = {Deep Recurrent Quantization for Generating Sequential Binary Codes},
   booktitle = {IJCAI},
   pages     = {912--918},
-  year      = {2019}
+  year      = {2019},
+  abbr      = {IJCAI},
+  bibtex_show={true},
+  abstract  = {Quantization has been an effective technology in ANN (approximate nearest neighbour) search due to its high accuracy and fast search speed. To meet the requirement of different applications, there is always a trade-off between retrieval accuracy and speed, reflected by variable code lengths. However, to encode the dataset into different code lengths, existing methods need to train several models, where each model can only produce a specific code length. This incurs a considerable training time cost, and largely reduces the flexibility of quantization methods to be deployed in real applications. To address this issue, we propose a Deep Recurrent Quantization (DRQ) architecture which can generate sequential binary codes. To the end, when the model is trained, a sequence of binary codes can be generated and the code length can be easily controlled by adjusting the number of recurrent iterations. A shared codebook and a scalar factor is designed to be the learnable weights in the deep recurrent quantization block, and the whole framework can be trained in an end-to-end manner. As far as we know, this is the first quantization method that can be trained once and generate sequential binary codes. Experimental results on the benchmark datasets show that our model achieves comparable or even better performance compared with the state-of-the-art for image retrieval. But it requires significantly less number of parameters and training times. Our code is published online: this https URL.},
+  arxiv     = {1906.06699},
+  code      = {https://github.com/xiaosu-zhu/DRQ},
+  pef       = {https://www.ijcai.org/proceedings/2019/0128.pdf}
 }
