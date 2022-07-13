@@ -15,24 +15,21 @@
       institution: University of Electronic Science and Technology of China, China
       year: 2020 - 2024 (Est.)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Under supervision of <b>Prof. Jingkuan Song</b> and <b>Prof. Lianli Gao</b>.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
     - title: Master
       institution: University of Electronic Science and Technology of China, China
       year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Under supervision of <b>Prof. Jingkuan Song</b> and <b>Prof. Lianli Gao</b>.
     - title: Bachelor
       institution: University of Electronic Science and Technology of China, China
       year: 2013 - 2017
       description:
-        - Description 1.
-        - Description 2.
+        - "Major: Electrical engineering and automation."
 
 # - title: Experience
 #   type: time_table
@@ -53,13 +50,13 @@
   contents:
     - title: <a href="https://github.com/xiaosu-zhu/McQuic">McQuic</a>
       year: 2021 - 2022
-      description: PLACEHOLDER.
+      description: McQuic, <i>a.k.a.</i> <b><i>M</i></b>ulti-<b><i>c</i></b>odebook <b><i>Qu</i></b>antizers for neural <b><i>i</i></b>mage <b><i>c</i></b>ompression, is a deep image compressor.
     - title: <a href="https://github.com/xiaosu-zhu/Aurora.Music">Aurora Music</a>
       year: 2016 - 2018
-      description: PLACEHOLDER.
+      description: A small, lightweight UWP music player.
     - title: <a href="https://github.com/xiaosu-zhu/Aurora.Music">Aurora Weather</a>
       year: 2016-2017
-      description: PLACEHOLDER.
+      description: Aurora Weather is a weather application with delicate ui and accurate data.
 
 - title: Honors and Awards
   type: time_table
@@ -76,16 +73,14 @@
   contents:
     - title: Compact representation learning.
       items: 
-        - Description 1.
-        - Description 2.
+        - Multi-codebook quantization.
+        - Learning to hash.
     - title: Multimedia retrieval.
       items:
-        - Description 1.
-        - Description 2.
+        - Quantization/Hash based fast retrieval.
     - title: Image Compression.
       items:
-        - Description 1.
-        - Description 2.
+        - Deep variational image compression.
 
 - title: Other Interests
   type: list
