@@ -4,7 +4,7 @@
 
 title: Xiaosu Zhu's Personal Page # the website title (if blank, full name will be used instead)
 first_name: Xiaosu
-middle_name: 
+middle_name:
 last_name: Zhu
 email: xiaosu.zhu@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -72,6 +72,7 @@ gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: 2DihiQ0AAAAJ # your Google Scholar ID
+semanticscholar_id: # your Semantic Scholar ID
 orcid_id: 0000-0001-7728-2518 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -83,6 +84,14 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/243/3461 # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
+kaggle_id: # your kaggle id
+lastfm_id: # your lastfm id
+spotify_id: # your spotify id
+pinterest_id: # your pinterest id
+unsplash_id: # your unsplash id
+instagram_id: # your instagram id
+facebook_id: # your facebook id
+discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
   Feel free to contact me anytime.
@@ -245,8 +254,10 @@ scholar:
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
-# Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 3
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3  # leave blank to always show all authors
+more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
