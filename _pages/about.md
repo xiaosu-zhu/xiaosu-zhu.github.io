@@ -7,7 +7,7 @@ subtitle: <a href='https://www.uestc.edu.cn' target="_blank">UESTC</a> &#183; <a
 profile:
   align: right
   image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Room A305, Innovation Center.</p>
     <p>Qing Shui He Campus, UESTC.</p>
