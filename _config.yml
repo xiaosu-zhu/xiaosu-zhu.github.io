@@ -228,8 +228,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Zhu
-  first_name: Xiaosu
+  last_name: [Zhu]
+  first_name: [Xiaosu]
 
   style: dependent/proceedings-of-the-ieee
   locale: en
