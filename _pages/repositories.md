@@ -22,7 +22,6 @@ nav_order: 3
 
 {% endfor %}
 {% endif %}
-{% endif %}
 
 ## GitHub Repositories
 
