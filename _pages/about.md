@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.uestc.edu.cn' target="_blank">UESTC</a> &#183; <a href='mailto:xiaosu.zhu@outlook.com' target="_blank">xiaosu.zhu@outlook.com</a> &#183; <span>Ph.D. student</span> &#183; <span>Compact Representation Learning</span> 
+subtitle: <a href='https://www.uestc.edu.cn' target="_blank">UESTC</a> &#183; <a href='mailto:xiaosu.zhu@outlook.com' target="_blank">xiaosu.zhu@outlook.com</a> &#183; <span>Ph.D. student</span> &#183; <span>Compact Representation Learning</span>
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>Chengdu, China.</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
