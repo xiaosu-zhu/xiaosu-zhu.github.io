@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span> Alibaba Cloud </span> &#183; <span> firstname DOT lastname AT outlook DOT com </span> &#183; <span> Ph.D. AT UESTC </span> &#183; <span> Neural discrete representation, AIGC, Roadside perception </span>
+subtitle: <span> Alibaba Cloud </span> &#183; <span> first DOT last AT outlook DOT com </span> &#183; <span> Ph.D. of UESTC </span> &#183; <span> Neural discrete representation, AIGC, Roadside perception </span>
 
 profile:
   align: right
