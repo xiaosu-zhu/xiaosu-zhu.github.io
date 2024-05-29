@@ -62,17 +62,17 @@
   type: time_table
   contents:
     - year: 2019
-      items: 
+      items:
         - National Scholarship
     - year: 2018
-      items: 
+      items:
         - Windows Developer Award -- Finalist of Design Innovator
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Compact representation learning.
-      items: 
+      items:
         - Multi-codebook quantization.
         - Learning to hash.
     - title: Multimedia retrieval.
